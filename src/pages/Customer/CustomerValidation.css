@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.titlecv {
+  color: #004360;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.descriptioncv {
+  color: #FF6B0B;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 1px;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  padding-left: 2.5rem;
+  border-radius: 4px;
+  border: 0px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  outline:  #d86010;
+  /* outline: none; */
+}
+
+.inputcv-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #004360;
+}
+
+.errorcv {
+  color: #e74c3c;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: -11px;
+  font-size: 14px;
+}
+
+.buttonCustomerValidation {
+  background-color: #FF6B0B;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttonCustomerValidation-hover {
+  background-color: #d86010;
+}
+
+.button-disabledCV {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.switch-to-chatid{
+  font-size: 15px;
+  padding: 10px;
+}
