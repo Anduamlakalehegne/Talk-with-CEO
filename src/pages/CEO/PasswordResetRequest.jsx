@@ -13,7 +13,7 @@ const PasswordResetRequest = () => {
         setMessage('');
     
         try {
-            const response = await fetch('http://localhost:5000/api/users/request-password-reset', {
+            const response = await fetch('http://localhost:5000/api/ceo/request-password-reset', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

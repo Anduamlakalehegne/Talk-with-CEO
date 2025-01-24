@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { MdLogout } from "react-icons/md";
 import { BsFillSendFill } from "react-icons/bs";
-import { RiWechatPayFill } from "react-icons/ri";
+import { RiWechatPayFill } from "react-icons/ri"; 
 import { FaClock } from "react-icons/fa6";
 import './CEODashboard.css';
 import logo from '../../assets/logo.png';
